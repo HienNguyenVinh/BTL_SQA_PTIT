@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/resources/lib/KGradientPanel.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/resources/lib/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/resources/lib/ojdbc11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/resources/lib/itextpdf-5.5.13.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/resources/lib/jfreechart-1.0.19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/resources/lib/jcalendar-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/resources/lib/javax.mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/resources/lib/TimingFramework-0.55.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/resources/lib/jcommon-1.0.23.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
