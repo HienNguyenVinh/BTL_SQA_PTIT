@@ -20,6 +20,7 @@ public class TaiKhoanDAOTest {
     private TaiKhoanDAO taiKhoanDAO;
     private Connection connection;
 
+    private static final String EXISTING_ACTIVE_USER_FOR_CHANGE_PASS = "NV12";
     private static final String EXISTING_ACTIVE_USER = "NV01";
     private static final String EXISTING_ACTIVE_USER_FOR_UPDATE = "NV03";
     private static final String EXISTING_INACTIVE_USER = "testuser_inactive";
@@ -278,7 +279,7 @@ public class TaiKhoanDAOTest {
     public void testLayLaiMatKhau_Success() {
         System.out.println("Testing layLaiMatKhau - Success");
 
-        String password = taiKhoanDAO.layLaiMatKhau(EXISTING_ACTIVE_USER);
+        String password = taiKhoanDAO.layLaiMatKhau(EXISTING_ACTIVE_USER_FOR_CHANGE_PASS);
         assertNotNull("Password/token should not be null", password);
         assertFalse("Password/token should not be empty", password.isEmpty());
         System.out.println("Retrieved password/token: " + password);
